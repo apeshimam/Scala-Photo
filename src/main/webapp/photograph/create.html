@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Home</title>
+  </head>
+  <body class="lift:content_id=main">
+    <div id="main" class="lift:surround?with=default;at=content">
+      <h2>Welcome to your file upload example!</h2>
+      <p>
+	<span>
+	  Please select a file to upload
+	</span>
+        <form class="lift:Photograph.add?form=post;multipart=true">
+          <fieldset class="alt">
+            <legend><span>Images</span></legend>
+            <ol>
+              <li><label for="image">Image</label>
+                <input id="image" name="image" class="text" type="text" />
+              </li>
+            </ol>
+          </fieldset>
+          <fieldset class="submit">
+            <input type="submit" value="Create" class="submit" />
+          </fieldset>
+        </form>
+      </p>
+    </div>
+  </body>
+</html>
